@@ -12,35 +12,35 @@ html {
   text-size-adjust: 100%;
 }
 
-  .tabs{
-  	margin: 0;
-  	padding-top: 0;
-  	list-style-type: none;
-  }
+.tabs {
+  margin: 0;
+  padding-top: 0;
+	list-style-type: none;
+}
 
-  .tabs a{
-  	display: inline-block;
-  	background-color: #fff;
-    border: 3px solid #000;
-    width: 15px;
-    height: 15px;
-  	border-radius: 10px;
-  	transition: all 500ms linear;
-  	position: relative;
-  }
+.tabs a {
+  display: inline-block;
+  background-color: #fff;
+  border: 3px solid #000;
+  width: 15px;
+  height: 15px;
+  border-radius: 10px;
+  transition: all 500ms linear;
+  position: relative;
+}
 
-   .tabs a:hover {
-   		background-color: #000;
-   		color: #fff;
-   }
+.tabs a:hover {
+   background-color: #000;
+   color: #fff;
+}
 
-   .panel {
-   display: none;
-	}
+.panel {
+  display: none;
+}
 
-	.panel:target {
-		display:block;
-	}
+.panel:target {
+	display:block;
+}
 
 
 
