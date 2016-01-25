@@ -19,11 +19,11 @@ html {
 .tabs {
   margin: 0;
   padding-top: 0;
-	list-style-type: none;
+  list-style-type: none;
 }
 
 .tabs li {
-  display: inline-block;
+    display: inline-block;
 }
 
 .tabs a {
@@ -47,13 +47,3 @@ html {
 .panel:target {
   display: block;
 }
-
-
-
-
-
-
-
-
-
-
