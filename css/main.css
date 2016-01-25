@@ -18,15 +18,17 @@ html {
 	list-style-type: none;
 }
 
+.tab li{
+  display: inline-block;
+}
+
 .tabs a {
   display: inline-block;
-  background-color: #fff;
   border: 3px solid #000;
   width: 15px;
   height: 15px;
   border-radius: 10px;
   transition: all 500ms linear;
-  position: relative;
 }
 
 .tabs a:hover {
