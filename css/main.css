@@ -18,7 +18,7 @@ html {
 	list-style-type: none;
 }
 
-.tabs li {
+.tabs a {
   display: inline-block;
   background-color: #fff;
   border: 3px solid #000;
