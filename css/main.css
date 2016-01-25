@@ -12,13 +12,17 @@ html {
   text-size-adjust: 100%;
 }
 
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
 .tabs {
   margin: 0;
   padding-top: 0;
 	list-style-type: none;
 }
 
-.tab li{
+.tabs li{
   display: inline-block;
 }
 
