@@ -22,7 +22,7 @@ html {
 	list-style-type: none;
 }
 
-.tabs li{
+.tabs li {
   display: inline-block;
 }
 
@@ -44,7 +44,7 @@ html {
   display: none;
 }
 
-.panel:target {
+.panel: target {
   display:block;
 }
 
